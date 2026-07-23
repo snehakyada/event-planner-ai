@@ -367,6 +367,129 @@
         ]
       },
       "currency": "INR"
+    },
+    {
+      "id": "5bfbf7e7-4250-4d2e-bacd-66967e2c37da",
+      "userId": "6fc68367-a657-4fd0-bfee-f1478b1f73c9",
+      "title": "birthday",
+      "type": "Birthday Party",
+      "budget": 24998,
+      "guestCount": 20,
+      "date": "2026-07-30",
+      "createdAt": "2026-07-23T14:00:00.547Z",
+      "plan": {
+        "schedule": [
+          {
+            "id": "sch1",
+            "time": "04:00 PM",
+            "title": "Venue Setup & Decor Assembly",
+            "description": "Coordinate with the decor vendor to set up balloon arches, table settings, and lighting ambient features.",
+            "completed": false
+          },
+          {
+            "id": "sch2",
+            "time": "06:00 PM",
+            "title": "Guest Arrival & Welcome Drinks",
+            "description": "Welcome 20 guests with refreshing mocktails, background ambient music, and initial appetizer passing.",
+            "completed": false
+          },
+          {
+            "id": "sch3",
+            "time": "07:00 PM",
+            "title": "Cake Cutting Ceremony",
+            "description": "Gather all guests around the main display table for birthday toasts, candle blowing, and photo opportunities.",
+            "completed": false
+          },
+          {
+            "id": "sch4",
+            "time": "07:30 PM",
+            "title": "Dinner Buffet & Entertainment",
+            "description": "Serve the main buffet course while background music keeps the energy upbeat and engaging.",
+            "completed": false
+          },
+          {
+            "id": "sch5",
+            "time": "09:30 PM",
+            "title": "Return Gifts & Departure",
+            "description": "Distribute personalized thank-you party favors to guests as the celebration concludes.",
+            "completed": false
+          }
+        ],
+        "checklist": [
+          {
+            "id": "chk1",
+            "task": "Finalize guest RSVP list and gather dietary restrictions",
+            "category": "Preparation",
+            "completed": false
+          },
+          {
+            "id": "chk2",
+            "task": "Order customized birthday cake and confirm delivery window",
+            "category": "Vendors",
+            "completed": false
+          },
+          {
+            "id": "chk3",
+            "task": "Purchase party favors, return gifts, and decorative paper goods",
+            "category": "Preparation",
+            "completed": false
+          },
+          {
+            "id": "chk4",
+            "task": "Confirm playlist and portable sound system setup",
+            "category": "Logistics",
+            "completed": false
+          },
+          {
+            "id": "chk5",
+            "task": "Coordinate decor color palette and backdrop design with stylist",
+            "category": "Decoration",
+            "completed": false
+          },
+          {
+            "id": "chk6",
+            "task": "Prepare designated cake-cutting table and serving utensils",
+            "category": "Logistics",
+            "completed": false
+          }
+        ],
+        "vendors": [
+          {
+            "category": "Catering & Cake",
+            "name": "Sweet Celebrations & Gourmet Bites",
+            "estimatedCost": "₹10,000",
+            "description": "Provides a curated mini-buffet with starters, main dishes, and a custom 2 kg birthday cake for 20 guests.",
+            "rating": "4.8/5",
+            "tips": [
+              "Can you accommodate specific dietary requests such as vegetarian or gluten-free options?",
+              "Are disposable dinnerware, napkins, and serving cutlery included in the package?"
+            ]
+          },
+          {
+            "category": "Decor & Styling",
+            "name": "Dreamy Balloon & Party Stylists",
+            "estimatedCost": "₹8,000",
+            "description": "Specializes in custom balloon arches, thematic backdrop setups, fairy lights, and table centerpieces.",
+            "rating": "4.7/5",
+            "tips": [
+              "How many hours prior to the event start time will your team need for complete setup?",
+              "Does your pricing cover post-event dismantling and venue cleanup?"
+            ]
+          },
+          {
+            "category": "Photography & Music",
+            "name": "Moments & Melodies Studio",
+            "estimatedCost": "₹6,998",
+            "description": "Offers 3 hours of coverage by a candid photographer alongside high-quality Bluetooth audio gear setup.",
+            "rating": "4.9/5",
+            "tips": [
+              "What is the estimated delivery timeframe for the edited digital photo gallery?",
+              "Do you bring backup sound equipment and wireless microphones for toasts?"
+            ]
+          }
+        ]
+      },
+      "currency": "INR"
     }
   ]
 }
