@@ -135,7 +135,11 @@ export default function App() {
       return;
     }
 
-    const endpoint = authMode === "login" ? "/api/auth/login" : "/api/auth/register";
+    const API_URL = import.meta.env.VITE_API_URL;
+    const endpoint = authMode === "login"
+    ? `${API_URL}/api/auth/login`
+: `${API_URL}/api/auth/register`;
+
     try {
       const res = await fetch(endpoint, {
         method: "POST",
