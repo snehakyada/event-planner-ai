@@ -107,7 +107,7 @@ export default function App() {
     if (!token) return;
     setLoadingEvents(true);
     try {
-      const res = await fetch("/api/events", {
+    const res = await fetch(`${API_URL}/api/events`, {
         headers: { Authorization: `Bearer ${token}` },
       });
       if (res.ok) {
@@ -237,7 +237,7 @@ export default function App() {
     }
 
     try {
-      const res = await fetch(`/api/events/${eventId}`, {
+      const res = await fetch(`${API_URL}/api/events/${eventId}`, {
         method: "DELETE",
         headers: { Authorization: `Bearer ${token}` },
       });
@@ -260,7 +260,7 @@ export default function App() {
 
   const handleUpdateCurrency = async (eventId: string, currency: "USD" | "INR") => {
     try {
-      const res = await fetch(`/api/events/${eventId}`, {
+  const res = await fetch(`${API_URL}/api/events/${eventId}`, {
         method: "PUT",
         headers: {
           "Content-Type": "application/json",
@@ -310,7 +310,7 @@ export default function App() {
     if (!selectedEventId) return;
     setIsGeneratingPlan(true);
     try {
-      const res = await fetch(`/api/events/${selectedEventId}/generate`, {
+      const res = await fetch(`${API_URL}/api/events/${selectedEventId}/generate`, {
         method: "POST",
         headers: { Authorization: `Bearer ${token}` },
       });
@@ -333,7 +333,7 @@ export default function App() {
   const handleToggleSchedule = async (itemId: string) => {
     if (!selectedEventId) return;
     try {
-      const res = await fetch(`/api/events/${selectedEventId}/toggle-schedule`, {
+      const res = await fetch(`${API_URL}/api/events/${selectedEventId}/toggle-schedule`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -354,7 +354,7 @@ export default function App() {
   const handleToggleChecklist = async (itemId: string) => {
     if (!selectedEventId) return;
     try {
-      const res = await fetch(`/api/events/${selectedEventId}/toggle-checklist`, {
+      const res = await fetch(`${API_URL}/api/events/${selectedEventId}/toggle-checklist`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -377,7 +377,7 @@ export default function App() {
     if (!newTaskText.trim()) return;
 
     try {
-      const res = await fetch(`/api/events/${selectedEventId}/add-checklist-item`, {
+      const res = await fetch(`${API_URL}/api/events/${selectedEventId}/add-checklist-item`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
