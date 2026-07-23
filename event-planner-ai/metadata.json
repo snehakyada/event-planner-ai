@@ -1,0 +1,6 @@
+{
+  "name": "Event Planner AI",
+  "description": "An AI-powered event planning application to register, log in, configure event details, and generate tailored schedules, checklists, and vendor recommendations.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

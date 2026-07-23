@@ -1,0 +1,372 @@
+{
+  "users": [
+    {
+      "id": "a3b5f535-0e99-4f86-b0ec-8c48da8a61de",
+      "username": "Sneha_Patel",
+      "passwordHash": "e08d665e7166bceacce0245c986c043e725678f3cd0f779f38518528ce9585fd"
+    },
+    {
+      "id": "021b7409-d14c-43c0-b526-6ff34052d574",
+      "username": "abc",
+      "passwordHash": "6ca13d52ca70c883e0f0bb101e425a89e8624de51db2d2392593af6a84118090"
+    }
+  ],
+  "events": [
+    {
+      "id": "44173637-b050-4b02-8a2b-b8535934aadc",
+      "userId": "80095b5e-6701-4597-b1c9-44d04d58fd44",
+      "title": "Birthday blash",
+      "type": "Birthday Party",
+      "budget": 500000,
+      "guestCount": 1000,
+      "date": "2026-08-10",
+      "createdAt": "2026-07-19T13:38:28.059Z",
+      "plan": {
+        "schedule": [
+          {
+            "id": "sch1",
+            "time": "10:00 AM",
+            "title": "Venue Setup and Load-in",
+            "description": "Coordinate with site operations for stage assembly, lighting rig installation, and catering station placement.",
+            "completed": false
+          },
+          {
+            "id": "sch2",
+            "time": "04:00 PM",
+            "title": "Vendor Rehearsal and Soundcheck",
+            "description": "Full technical run-through with sound engineers and entertainment team to ensure audio balance across the venue.",
+            "completed": false
+          },
+          {
+            "id": "sch3",
+            "time": "06:30 PM",
+            "title": "Grand Guest Arrival",
+            "description": "Commencement of guest check-in at the grand entrance with red carpet styling and welcome refreshments.",
+            "completed": false
+          },
+          {
+            "id": "sch4",
+            "time": "09:00 PM",
+            "title": "Peak Celebration Hour",
+            "description": "The birthday toast, cake cutting ceremony, and primary entertainment showcase for all 1000 guests.",
+            "completed": false
+          },
+          {
+            "id": "sch5",
+            "time": "11:30 PM",
+            "title": "Event Conclusion",
+            "description": "Safe exit management and commencement of venue tear-down protocols.",
+            "completed": false
+          }
+        ],
+        "checklist": [
+          {
+            "id": "chk1",
+            "task": "Secure venue permit and event insurance for 1000 pax capacity",
+            "category": "Logistics",
+            "completed": true
+          },
+          {
+            "id": "chk2",
+            "task": "Design and dispatch digital invitations with RSVP tracking",
+            "category": "Preparation",
+            "completed": false
+          },
+          {
+            "id": "chk3",
+            "task": "Finalize catering menu and quantity for bulk service requirements",
+            "category": "Vendors",
+            "completed": false
+          },
+          {
+            "id": "chk4",
+            "task": "Install thematic lighting and ambient decor accents",
+            "category": "Decoration",
+            "completed": false
+          },
+          {
+            "id": "chk5",
+            "task": "Assign security team for crowd management and entry screening",
+            "category": "Logistics",
+            "completed": false
+          },
+          {
+            "id": "chk6",
+            "task": "Confirm parking arrangements and valet logistics",
+            "category": "Logistics",
+            "completed": false
+          }
+        ],
+        "vendors": [
+          {
+            "category": "Venue & Infrastructure",
+            "name": "Grand Open-Air Grounds",
+            "estimatedCost": "₹2,00,000",
+            "description": "Spacious grounds capable of hosting 1000 guests with power supply and security support.",
+            "rating": "4.7/5",
+            "tips": [
+              "What is the total capacity for power grid load?",
+              "Are there designated zones for large-scale catering kitchens?"
+            ]
+          },
+          {
+            "category": "Catering",
+            "name": "Elite Banquet Masters",
+            "estimatedCost": "₹2,25,000",
+            "description": "High-volume catering service specializing in multi-cuisine buffet setups for large crowds.",
+            "rating": "4.6/5",
+            "tips": [
+              "Can you provide a fast-refill strategy for 1000 guests?",
+              "Do you have experience managing buffet flow to prevent queues?"
+            ]
+          },
+          {
+            "category": "Entertainment & Sound",
+            "name": "Sonic Waves Event Solutions",
+            "estimatedCost": "₹75,000",
+            "description": "Professional sound reinforcement, DJ setup, and lighting for large event spaces.",
+            "rating": "4.8/5",
+            "tips": [
+              "What is the reach of your speaker system for an open ground?",
+              "Do you provide backup generators for the audio system?"
+            ]
+          }
+        ]
+      },
+      "currency": "INR"
+    },
+    {
+      "id": "5f2a25b6-6bef-497d-8b38-a10eb9fe298f",
+      "userId": "a3b5f535-0e99-4f86-b0ec-8c48da8a61de",
+      "title": "Birthday party",
+      "type": "Birthday Party",
+      "budget": 500000,
+      "guestCount": 500,
+      "date": "2026-08-20",
+      "createdAt": "2026-07-19T14:13:04.952Z",
+      "plan": {
+        "schedule": [
+          {
+            "id": "sch1",
+            "time": "02:00 PM",
+            "title": "Vendor Setup and Site Inspection",
+            "description": "Final load-in for catering, decor, and AV teams. Walkthrough of the entire floor plan to ensure safety protocols.",
+            "completed": false
+          },
+          {
+            "id": "sch2",
+            "time": "06:30 PM",
+            "title": "Guest Arrival and Welcome Drinks",
+            "description": "Greet attendees with signature mocktails and light hors d'oeuvres while ambient jazz background music plays.",
+            "completed": false
+          },
+          {
+            "id": "sch3",
+            "time": "08:00 PM",
+            "title": "Celebration and Buffet Service",
+            "description": "Opening remarks followed by the commencement of the multi-cuisine buffet service to accommodate 500 guests.",
+            "completed": false
+          },
+          {
+            "id": "sch4",
+            "time": "10:30 PM",
+            "title": "Event Wrap-up and Load-out",
+            "description": "Closing of service, guest departure, and initial breakdown of technical equipment and floral installations.",
+            "completed": false
+          }
+        ],
+        "checklist": [
+          {
+            "id": "chk1",
+            "task": "Finalize guest list and send out digital invitations via WhatsApp/Email.",
+            "category": "Preparation",
+            "completed": false
+          },
+          {
+            "id": "chk2",
+            "task": "Procure necessary event permits for a gathering of 500 people.",
+            "category": "Logistics",
+            "completed": false
+          },
+          {
+            "id": "chk3",
+            "task": "Source locally available floral arrangements to maintain budget.",
+            "category": "Decoration",
+            "completed": false
+          },
+          {
+            "id": "chk4",
+            "task": "Coordinate with the catering lead on menu testing and allergen labeling.",
+            "category": "Vendors",
+            "completed": false
+          },
+          {
+            "id": "chk5",
+            "task": "Schedule on-site security and valet management for high vehicle volume.",
+            "category": "Logistics",
+            "completed": false
+          }
+        ],
+        "vendors": [
+          {
+            "category": "Catering",
+            "name": "Elite Banquet Services",
+            "estimatedCost": "₹3,00,000",
+            "description": "Full-service buffet management capable of serving 500 guests with diverse regional menu options.",
+            "rating": "4.7/5",
+            "tips": [
+              "What is the buffer quantity for extra servings?",
+              "Can you provide a detailed breakdown of the staffing ratios?"
+            ]
+          },
+          {
+            "category": "Venue",
+            "name": "Garden Pavilion Estates",
+            "estimatedCost": "₹1,20,000",
+            "description": "Spacious outdoor venue rental including basic lighting, power backup, and sufficient restroom facilities.",
+            "rating": "4.5/5",
+            "tips": [
+              "Are there any restrictions on sound levels after 10 PM?",
+              "Does the rental fee include on-site cleaning staff?"
+            ]
+          },
+          {
+            "category": "Entertainment",
+            "name": "Dynamic Sound & Rhythm",
+            "estimatedCost": "₹80,000",
+            "description": "Comprehensive AV setup, professional DJ, and wireless microphone systems for announcements.",
+            "rating": "4.6/5",
+            "tips": [
+              "Do you have a backup power generator for the equipment?",
+              "Can you provide a setlist for approval prior to the event?"
+            ]
+          }
+        ]
+      },
+      "currency": "INR"
+    },
+    {
+      "id": "fc467b33-11ab-4790-8a2c-f9bd543563f6",
+      "userId": "021b7409-d14c-43c0-b526-6ff34052d574",
+      "title": "workshop",
+      "type": "Conference / Workshop",
+      "budget": 2000000,
+      "guestCount": 100,
+      "date": "2026-07-31",
+      "createdAt": "2026-07-23T06:28:46.234Z",
+      "plan": {
+        "schedule": [
+          {
+            "id": "sch1",
+            "time": "08:30 AM",
+            "title": "Registration and Networking Breakfast",
+            "description": "Guests arrive for badge pickup and light refreshments in the foyer.",
+            "completed": false
+          },
+          {
+            "id": "sch2",
+            "time": "10:00 AM",
+            "title": "Inaugural Keynote Session",
+            "description": "Opening remarks and the primary industry address in the main auditorium.",
+            "completed": false
+          },
+          {
+            "id": "sch3",
+            "time": "01:00 PM",
+            "title": "Networking Luncheon",
+            "description": "A curated buffet spread to facilitate attendee interaction and break-out discussions.",
+            "completed": false
+          },
+          {
+            "id": "sch4",
+            "time": "03:00 PM",
+            "title": "Interactive Workshop Modules",
+            "description": "Hands-on collaborative sessions held in partitioned breakout rooms.",
+            "completed": false
+          },
+          {
+            "id": "sch5",
+            "time": "05:30 PM",
+            "title": "Closing Reception",
+            "description": "Final networking cocktail session with appetizers and concluding remarks.",
+            "completed": false
+          }
+        ],
+        "checklist": [
+          {
+            "id": "chk1",
+            "task": "Secure venue booking and sign comprehensive liability waiver",
+            "category": "Logistics",
+            "completed": false
+          },
+          {
+            "id": "chk2",
+            "task": "Finalize audiovisual requirements and speaker tech rehearsals",
+            "category": "Preparation",
+            "completed": false
+          },
+          {
+            "id": "chk3",
+            "task": "Approve minimalist, branded stage design and floral decor",
+            "category": "Decoration",
+            "completed": false
+          },
+          {
+            "id": "chk4",
+            "task": "Confirm catering dietary restrictions and menu selection",
+            "category": "Vendors",
+            "completed": false
+          },
+          {
+            "id": "chk5",
+            "task": "Coordinate attendee check-in software and badge printing",
+            "category": "Logistics",
+            "completed": false
+          },
+          {
+            "id": "chk6",
+            "task": "Final walkthrough of the layout with venue management",
+            "category": "Preparation",
+            "completed": false
+          }
+        ],
+        "vendors": [
+          {
+            "category": "Venue",
+            "name": "The Grand Business Suites & Convention Hall",
+            "estimatedCost": "₹10,00,000",
+            "description": "High-end corporate venue with integrated AV and professional lighting.",
+            "rating": "4.9/5",
+            "tips": [
+              "What is your backup power contingency plan?",
+              "Are there restrictions on external signage placement?"
+            ]
+          },
+          {
+            "category": "Catering",
+            "name": "Elite Gourmet Hospitality Services",
+            "estimatedCost": "₹6,00,000",
+            "description": "Premium multi-cuisine buffet and high-quality tea-break services.",
+            "rating": "4.7/5",
+            "tips": [
+              "How do you handle real-time replenishment during peak hours?",
+              "Can you provide a sample menu tailored for high-protein, brain-food lunch options?"
+            ]
+          },
+          {
+            "category": "AV & Production",
+            "name": "Lumina Creative Tech Solutions",
+            "estimatedCost": "₹4,00,000",
+            "description": "Professional sound engineering, LED wall deployment, and stage production.",
+            "rating": "4.8/5",
+            "tips": [
+              "Do you provide a dedicated technician on-site throughout the event?",
+              "How quickly can you resolve audio feedback or connection issues?"
+            ]
+          }
+        ]
+      },
+      "currency": "INR"
+    }
+  ]
+}
