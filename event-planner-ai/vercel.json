@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    {
+      "source": "/api/(.*)",
+      "destination": "https://event-planner-ai.onrender.com/api/$1"
+    }
+  ]
+}
