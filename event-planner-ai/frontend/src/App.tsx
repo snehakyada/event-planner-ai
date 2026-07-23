@@ -193,7 +193,8 @@ export default function App() {
     }
 
     try {
-      const res = await fetch("/api/events", {
+     const API_URL = import.meta.env.VITE_API_URL;
+     const res = await fetch(`${API_URL}/api/events`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
